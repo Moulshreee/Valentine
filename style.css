@@ -5,7 +5,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fde7ea; /* Pastel pink */
+  background-color: #fde7ea;
   background-repeat: repeat-x;
 }
 
@@ -31,17 +31,17 @@ button {
   padding: 10px 20px;
   margin: 0 50px;
   border: none;
-  border-radius: 50px; /* Circular corners */
+  border-radius: 50px; 
   cursor: pointer;
   transition: transform 0.2s;
 }
 
 #yesButton {
-  background-color: #a2d2ff; /* Light blue */
+  background-color: #a2d2ff; 
 }
 
 #noButton {
-  background-color: #ffcbcb; /* Light pink */
+  background-color: #ffcbcb; 
 }
 
 #yesButton:hover {
