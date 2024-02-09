@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fde7ea; /* Pastel pink */
+  background-repeat: repeat-x;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.heart-icon {
+  width: 200px; 
+  height: auto;
+  position: relative;
+  left: 15px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 10px 20px;
+  margin: 0 50px;
+  border: none;
+  border-radius: 50px; /* Circular corners */
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#yesButton {
+  background-color: #a2d2ff; /* Light blue */
+}
+
+#noButton {
+  background-color: #ffcbcb; /* Light pink */
+}
+
+#yesButton:hover {
+  transform: scale(1.1);
+}
+
+#noButton:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
